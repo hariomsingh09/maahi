@@ -1,0 +1,205 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+	margin: o;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	margin: 5px 0 0 20px;
+		background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4wB1b2ftakfRHyaMPVX41183BKX02cKCEtw&s');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+
+
+}
+
+h1{
+	
+	text-transform: capitalize;
+	margin-top: 30px;
+	margin-left: 50px;
+
+	
+	
+
+}
+
+.navbar ul{
+	
+	display: flex;
+	
+	position: fixed;
+	top: 0%;
+	gap: 50px; 
+	height: 60px;
+	width: 95vw;
+	list-style-type: none;
+	font-size: 15px;
+	justify-content: flex-end;
+	padding-bottom: 10px;
+	background-color: lightgrey;
+	filter: opacity(50%);
+	color: red;
+	
+	
+	
+
+}
+
+.navbar a{
+	text-decoration-line: none;
+	color: darkgreen;
+
+} 
+h2{
+	padding-bottom: 20px;
+	padding-right: 30px;
+	text-decoration-line: underline ;
+
+
+}
+
+
+.logo img{
+	border: thin solid;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	margin-right: 300px;
+}
+
+.bord{
+	height: 600px;
+	width: 95vw;
+
+}
+
+.bord {
+	
+
+	
+	background-size: 95vw 500px;
+	border-radius: 0 0 40% 40%;
+	
+	
+
+
+}
+
+.bord h3{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	top: 30%;
+	left: 21%;
+	width: 600px;
+	font-size: 60px;
+	text-align: left;
+	text-transform: capitalize;
+	color: darkolivegreen;
+
+}
+
+.abot{
+	margin: 10px 50px 60px;
+	padding-top: 90px;
+	display: flex;
+	align-items: center
+
+	
+
+}
+
+.ab{
+
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	padding : 20px 30px;
+}
+
+ .dp img{
+	padding: 10px 30px;
+	border-radius: 30%;
+	height: 400px;
+	align-items: center;
+
+
+}
+
+.stats{
+	margin: 70px 30px;
+	display: table;
+	padding-top: 40px;
+
+}
+
+
+td,th{
+	padding: 20px;
+	text-align: left;
+	border-bottom: 0.3px dashed;
+}
+
+.bord h3::before{
+	content: "mahi ";
+	top: -17%;
+	left: 2%;
+	letter-spacing: 11px;
+	font-size: 30px;
+	position: absolute;
+}
+.award,
+.records{
+	margin: 70px 50px 20px;	
+	height: 600px;
+	padding-top: 70px;
+}
+.award li{
+	padding: 0px 5px 20px;
+}
+
+.records li{
+	padding: 0px 5px 15px;
+}
+
+.life{
+	margin: 350px 20px 0px;
+}
+
+.life p,
+.life h2{
+	margin: 20px 40px;
+}
+
+.cont{
+	margin: 20px 20px 30px;
+	padding-top: 70px;
+	
+}
+.cont a{
+	margin: 30px 10px;
+	color: lightseagreen;
+}
+
+ a:hover{
+ 	color: black ;
+ 	font-size: 18px;
+ }
